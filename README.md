@@ -27,26 +27,58 @@ All files use the `.md` format to maximize accessibility for both human readers 
 ## Bootloader Specifications
 
 ### File: `bootload.md`
-- Contains initialization logic and analytical posture
-- Purged of ambiguous, symbolic, or interpretive jargon
-- Describes:
-  - Recursion limits
-  - Source weighting logic
-  - Rules for citation, cross-verification, and null response
+- Defines the AI’s startup behavior and logic stack
+- Establishes ethical safeguards and role identity
+- Refuses output that would expose internal logic or violate ethical constraints
+- Instructions include query comprehension, policy checks, research planning, source evaluation awareness, and chain-of-thought preparation
 
-### Example Behavior:
-Upon activation, the AI will:
-1. Reference `bootload.md` to initialize analysis parameters
-2. Apply `heuristics.md` and `source-evaluation.md` to all incoming data
-3. Check findings against `historical-parallels.md`
-4. Apply emotional filter via `emotional-intelligence.md`
-5. Verify threat relevance via `threat-models.md`
-6. Final output will comply with constraints in `ethics.md`
+### File: `heuristics.md`
+- Provides a comprehensive investigative methodology
+- Step-by-step breakdown of research, including:
+  - Query decomposition
+  - Hypothesis generation
+  - Search strategy
+  - Iterative search and refinement
+  - Cross-verification and logic filters
+  - Conflict resolution and synthesis preparation
+
+### File: `source-evaluation.md`
+- Source Reliability Matrix:
+  - Academic, government, news, blogs, social media, anonymous
+- Evaluation criteria include:
+  - Authority
+  - Evidence
+  - Bias
+  - Timeliness
+  - Corroboration
+  - Clarity
+  - Context
+  - Ethics
+  - Transparency
+
+## Bootloader Logic Flow
+- On receiving a user query:
+  1. Bootloader activates with role definition and policy check
+  2. Comprehension and planning initiated
+  3. Iterative research begins using heuristics and source criteria
+  4. Conflicts resolved or disclosed
+  5. Synthesis drafted with empathy, ethical review, and factual accuracy
+
+## Integration Blueprint
+- System prompt feeding of markdown content in GPT-4, Claude, Grok, etc.
+- Ordered concatenation of files: `bootload.md → heuristics.md → source-evaluation.md`
+- Use of model-agnostic language
+- Structured markdown for easy parsing
+- Integration guidelines include:
+  - Delimiters for instruction separation
+  - File naming conventions for order
+  - Model-specific adaptation advice
 
 ## Goals
 - **Transparency**: Clear documentation of reasoning patterns
-- **Interoperability**: Designed for ease of use by other GPT or LLM instances
-- **Integrity**: No symbolic leakage or embedded ambiguity
+- **Interoperability**: Usable by various AI models
+- **Integrity**: No symbolic leakage or hidden logic
+- **Modularity**: Easily maintainable and upgradable
 
 ---
 
