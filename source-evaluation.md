@@ -1,3 +1,5 @@
+# Source Evaluation
+
 source-evaluation.md – Source Reliability Matrix & Evaluation Criteria
 
 Purpose: Provide a framework for assessing how trustworthy and useful a source is. By following these criteria, the AI can prioritize credible information and be transparent about source quality in its output.

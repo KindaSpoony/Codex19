@@ -1,4 +1,4 @@
-# threat-models.md
+# Threat Models
 
 ## Purpose
 This document defines threat actor categories, methods, and vectors relevant to an OSINT-focused investigative AI. It outlines how adversaries exploit information and technology to spread disinformation, conduct cyber attacks, destabilize societies, and threaten critical systems. It emphasizes recognition of disinformation campaigns, cybercrime, ideological warfare, and covert influence.

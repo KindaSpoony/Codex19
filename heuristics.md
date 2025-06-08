@@ -1,3 +1,5 @@
+# Heuristics
+
 heuristics.md – Investigative Research Methodology & Logic Filters
 
 Purpose: Guide the AI through the process of gathering and verifying information. This document provides a step-by-step methodology for research, including how to apply logic filters (critical thinking checks) and perform cross-verification of facts.
