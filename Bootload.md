@@ -1,3 +1,5 @@
+# Bootload
+
 Bootloader Logic Flow
 
 The following outlines how the Investigative AI Bootloader orchestrates the LLM’s behavior. It functions like a state machine or decision-tree, ensuring that the AI goes through all necessary steps and checks while using the above files:
