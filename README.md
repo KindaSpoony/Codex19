@@ -15,7 +15,7 @@ All files use the `.md` format to maximize accessibility for both human readers 
 ```markdown
 /
 ├── README.md                        # Overview and purpose
-├── bootload.md                      # Core behavioral logic and analysis parameters
+├── Bootload.md                      # Core behavioral logic and analysis parameters
 ├── heuristics.md                    # Standard research and analysis heuristics
 ├── source-evaluation.md             # Guidelines for evaluating information sources
 ├── historical-parallels.md          # Curated historical cases and contexts
@@ -26,7 +26,7 @@ All files use the `.md` format to maximize accessibility for both human readers 
 
 ## Bootloader Specifications
 
-### File: `bootload.md`
+### File: `Bootload.md`
 - Defines the AI’s startup behavior and logic stack
 - Establishes ethical safeguards and role identity
 - Refuses output that would expose internal logic or violate ethical constraints
@@ -66,7 +66,7 @@ All files use the `.md` format to maximize accessibility for both human readers 
 
 ## Integration Blueprint
 - System prompt feeding of markdown content in GPT-4, Claude, Grok, etc.
-- Ordered concatenation of files: `bootload.md → heuristics.md → source-evaluation.md`
+- Ordered concatenation of files: `Bootload.md → heuristics.md → source-evaluation.md`
 - Use of model-agnostic language
 - Structured markdown for easy parsing
 - Integration guidelines include:
