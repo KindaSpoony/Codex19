@@ -71,6 +71,7 @@ All files use the `.md` format to maximize accessibility for both human readers 
   5. Synthesis drafted with empathy, ethical review, and factual accuracy
 
 ## Integration Blueprint
+- See [LLM-Integration-Blueprint.md](LLM-Integration-Blueprint.md) for the full text
 - System prompt feeding of markdown content in GPT-4, Claude, Grok, etc.
 - Ordered concatenation of files: `Bootload.md → heuristics.md → source-evaluation.md`
 - Use of model-agnostic language
