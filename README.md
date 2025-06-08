@@ -21,6 +21,7 @@ All files use the `.md` format to maximize accessibility for both human readers 
 ├── historical-parallels.md          # Curated historical cases and contexts
 ├── emotional-intelligence.md        # Guidance for emotional tone assessment
 ├── threat-models.md                 # Reference threat vectors and actors
+├── tools.md                         # OSINT tools and LLM modules reference
 └── ethics.md                        # Transparent ethical constraints and boundaries
 ```
 
@@ -55,6 +56,11 @@ All files use the `.md` format to maximize accessibility for both human readers 
   - Context
   - Ethics
   - Transparency
+
+### File: `tools.md`
+- Catalog of OSINT tools and resources
+- Describes specialized LLM modules for ethical and analytical processing
+- Lists advanced search techniques such as Google dorking operators
 
 ## Bootloader Logic Flow
 - On receiving a user query:
