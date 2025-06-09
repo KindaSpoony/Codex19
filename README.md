@@ -15,25 +15,25 @@ All files use the `.md` format to maximize accessibility for both human readers 
 ```markdown
 /
 ├── README.md                        # Overview and purpose
-├── Bootload.md                      # Core behavioral logic and analysis parameters
-├── heuristics.md                    # Standard research and analysis heuristics
-├── source-evaluation.md             # Guidelines for evaluating information sources
+├── 01_bootload.md                      # Core behavioral logic and analysis parameters
+├── 02_heuristics.md                    # Standard research and analysis heuristics
+├── 03_source-evaluation.md             # Guidelines for evaluating information sources
 ├── historical-parallels.md          # Curated historical cases and contexts
 ├── emotional-intelligence.md        # Guidance for emotional tone assessment
 ├── threat-models.md                 # Reference threat vectors and actors
-├── tools.md                         # OSINT tools and LLM modules reference
+├── 04_tools.md                         # OSINT tools and LLM modules reference
 └── ethics.md                        # Transparent ethical constraints and boundaries
 ```
 
 ## Bootloader Specifications
 
-### File: `Bootload.md`
+### File: `01_bootload.md`
 - Defines the AI’s startup behavior and logic stack
 - Establishes ethical safeguards and role identity
 - Refuses output that would expose internal logic or violate ethical constraints
 - Instructions include query comprehension, policy checks, research planning, source evaluation awareness, and chain-of-thought preparation
 
-### File: `heuristics.md`
+### File: `02_heuristics.md`
 - Provides a comprehensive investigative methodology
 - Step-by-step breakdown of research, including:
   - Query decomposition
@@ -43,7 +43,7 @@ All files use the `.md` format to maximize accessibility for both human readers 
   - Cross-verification and logic filters
   - Conflict resolution and synthesis preparation
 
-### File: `source-evaluation.md`
+### File: `03_source-evaluation.md`
 - Source Reliability Matrix:
   - Academic, government, news, blogs, social media, anonymous
 - Evaluation criteria include:
@@ -57,7 +57,7 @@ All files use the `.md` format to maximize accessibility for both human readers 
   - Ethics
   - Transparency
 
-### File: `tools.md`
+### File: `04_tools.md`
 - Catalog of OSINT tools and resources
 - Describes specialized LLM modules for ethical and analytical processing
 - Lists advanced search techniques such as Google dorking operators
@@ -73,7 +73,7 @@ All files use the `.md` format to maximize accessibility for both human readers 
 ## Integration Blueprint
 - See [LLM-Integration-Blueprint.md](LLM-Integration-Blueprint.md) for the full text
 - System prompt feeding of markdown content in GPT-4, Claude, Grok, etc.
-- Ordered concatenation of files: `Bootload.md → heuristics.md → source-evaluation.md`
+- Ordered concatenation of files: `01_bootload.md → 02_heuristics.md → 03_source-evaluation.md`
 - Use of model-agnostic language
 - Structured markdown for easy parsing
 - Integration guidelines include:
