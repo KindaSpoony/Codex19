@@ -1,48 +1,30 @@
-03_source-evaluation.md – Source Reliability Matrix & Evaluation Criteria
+# Source Reliability Matrix & Evaluation Criteria
 
-Purpose: Provide a framework for assessing how trustworthy and useful a source is. By following these criteria, the AI can prioritize credible information and be transparent about source quality in its output.
-Source Reliability Matrix:
-Source Type
-Examples
-Reliability Level
-Notes for AI
-Academic / Scientific
-Peer-reviewed journals, scholarly articles, university research
-High
-Highly reliable for factual data and analysis. Still check if the study is up-to-date and relevant to the query.
-Official / Government
-Government reports, official statistics, legal documents, agency press releases
-High
-Authoritative data. Watch out for any political or organizational bias in presentation, but generally these are factual.
-Established News Media
-Major newspapers and media outlets (BBC, NYT, Reuters, etc.)
-Medium-High
-Generally reliable especially for straightforward reporting. Be cautious of editorial slant or occasional errors; cross-verify important claims if possible.
-Specialized Reputable Sites
-Industry journals, respected expert blogs, think-tank reports
-Medium
-Can provide deep insights. Credibility is higher if the author is a known expert or the publication has a good reputation. Verify key facts via a second source if available.
-Crowdsourced Knowledge
-Wikipedia, StackExchange, community wikis/forums
-Medium
-Useful for overview and pointers. Information can be generally correct but may have inaccuracies or lack context. Always verify critical facts from a primary source or reference cited.
-Social Media & Personal
-Tweets, Facebook posts, personal blogs, YouTube commentary
-Low
-Treat as anecdotal or speculative unless posted by an official or verified expert. Use such info only as leads, and find confirmation from more authoritative sources.
-Anonymous/Unverified
-Random forums (Reddit threads without credible sources, 4chan, anonymous comments)
-Very Low
-Not reliable. Avoid using this information as fact. If it’s mentioned, clearly qualify it as unverified and seek better sources.
-Evaluation Criteria:
-	•	Authority: Is the source an expert or primary authority on the subject? (An official database or academic publication ranks higher than an unknown blog.) Prefer sources with recognized expertise or direct knowledge.
-	•	Accuracy & Evidence: Does the source provide evidence or references for its claims? Reliable sources usually back their information with data, citations, or detailed reasoning. Check if the details given are corroborated elsewhere. If a source is the only one making a particular claim, treat that claim with caution.
-	•	Bias & Objectivity: Consider the source’s potential bias or agenda. Are they trying to persuade or sell something? Could they be omitting information? The AI should take into account known biases (e.g., a partisan news site or a company’s press release about its own product) and adjust confidence in the information accordingly. Strive to cross-check biased sources against more neutral ones.
-	•	Timeliness: How recent is the information? Newer sources are generally better for current events (to avoid outdated info), but older sources may be fine for historical facts. Be wary of sources that might have been accurate but are now outdated (e.g., an old statistic or an outdated software vulnerability report). Always note the publication date and use the most up-to-date credible info for time-sensitive queries.
-	•	Corroboration: Has the information been confirmed by multiple independent sources? One-off reports (especially from lower-reliability categories) should not be taken as truth until verified. If only a single source is available, the AI should either attempt to find a second source or explicitly state that the information comes from a single report.
-	•	Clarity and Detail: Trustworthy sources tend to be clear, detailed, and consistent. If a source is vague or very sensational in tone, it might be less reliable. (For example, a source that makes extreme claims without detail or that uses a lot of exclamation points and dramatic language should be viewed skeptically.) The AI should favor sources that provide concrete details over those that are anecdotal or inflammatory.
-	•	Source Context & Provenance: Understand the context in which the information was produced. Is it a primary source (first-hand data or eyewitness account) or secondary (analysis or commentary on primary data)? Primary sources can be very reliable but might need context; secondary sources are useful for analysis but inherit the primary source’s limitations. Also consider provenance: e.g., leaked data posted on a forum might technically be primary, but its authenticity is questionable.
-	•	Ethical Considerations: If a source involves potentially unethical data (like hacked or leaked personal info), the AI should exercise caution or avoid using it, in line with ethical constraints. Publicly available does not always mean ethically clear to use (think of personal data dumps – they might be out in the open but using them could violate privacy norms).
-	•	Transparency in Reporting: Plan to communicate source quality in the final answer when appropriate. If a crucial piece of info comes from a lower-tier source (and no better source exists), the AI should mention that context (e.g., “Information from an unverified forum post suggests X, but this has not been confirmed by official sources.”). Conversely, when using high-quality sources, citing them can bolster the answer’s credibility.
+## Purpose
+Provide a framework for assessing how trustworthy and useful a source is. By following these criteria, the AI can prioritize credible information and be transparent about source quality in its output.
+
+## Source Reliability Matrix
+
+| Source Type | Examples | Reliability Level | Notes for AI |
+|-------------|---------|------------------|--------------|
+| Academic / Scientific | Peer-reviewed journals, scholarly articles, university research | High | Highly reliable for factual data and analysis. Still check if the study is up-to-date and relevant to the query. |
+| Official / Government | Government reports, official statistics, legal documents, agency press releases | High | Authoritative data. Watch out for any political or organizational bias in presentation, but generally these are factual. |
+| Established News Media | Major newspapers and media outlets (BBC, NYT, Reuters, etc.) | Medium-High | Generally reliable especially for straightforward reporting. Be cautious of editorial slant or occasional errors; cross-verify important claims if possible. |
+| Specialized Reputable Sites | Industry journals, respected expert blogs, think-tank reports | Medium | Can provide deep insights. Credibility is higher if the author is a known expert or the publication has a good reputation. Verify key facts via a second source if available. |
+| Crowdsourced Knowledge | Wikipedia, StackExchange, community wikis/forums | Medium | Useful for overview and pointers. Information can be generally correct but may have inaccuracies or lack context. Always verify critical facts from a primary source or reference cited. |
+| Social Media & Personal | Tweets, Facebook posts, personal blogs, YouTube commentary | Low | Treat as anecdotal or speculative unless posted by an official or verified expert. Use such info only as leads, and find confirmation from more authoritative sources. |
+| Anonymous/Unverified | Random forums (Reddit threads without credible sources, 4chan, anonymous comments) | Very Low | Not reliable. Avoid using this information as fact. If it’s mentioned, clearly qualify it as unverified and seek better sources. |
+
+## Evaluation Criteria
+
+- **Authority:** Is the source an expert or primary authority on the subject? (An official database or academic publication ranks higher than an unknown blog.) Prefer sources with recognized expertise or direct knowledge.
+- **Accuracy & Evidence:** Does the source provide evidence or references for its claims? Reliable sources usually back their information with data, citations, or detailed reasoning. Check if the details given are corroborated elsewhere. If a source is the only one making a particular claim, treat that claim with caution.
+- **Bias & Objectivity:** Consider the source’s potential bias or agenda. Are they trying to persuade or sell something? Could they be omitting information? The AI should take into account known biases (e.g., a partisan news site or a company’s press release about its own product) and adjust confidence in the information accordingly. Strive to cross-check biased sources against more neutral ones.
+- **Timeliness:** How recent is the information? Newer sources are generally better for current events (to avoid outdated info), but older sources may be fine for historical facts. Be wary of sources that might have been accurate but are now outdated (e.g., an old statistic or an outdated software vulnerability report). Always note the publication date and use the most up-to-date credible info for time-sensitive queries.
+- **Corroboration:** Has the information been confirmed by multiple independent sources? One-off reports (especially from lower-reliability categories) should not be taken as truth until verified. If only a single source is available, the AI should either attempt to find a second source or explicitly state that the information comes from a single report.
+- **Clarity and Detail:** Trustworthy sources tend to be clear, detailed, and consistent. If a source is vague or very sensational in tone, it might be less reliable. For example, a source that makes extreme claims without detail or that uses a lot of exclamation points and dramatic language should be viewed skeptically. The AI should favor sources that provide concrete details over those that are anecdotal or inflammatory.
+- **Source Context & Provenance:** Understand the context in which the information was produced. Is it a primary source (first-hand data or eyewitness account) or secondary (analysis or commentary on primary data)? Primary sources can be very reliable but might need context; secondary sources are useful for analysis but inherit the primary source’s limitations. Also consider provenance: e.g., leaked data posted on a forum might technically be primary, but its authenticity is questionable.
+- **Ethical Considerations:** If a source involves potentially unethical data (like hacked or leaked personal info), the AI should exercise caution or avoid using it, in line with ethical constraints. Publicly available does not always mean ethically clear to use (think of personal data dumps – they might be out in the open but using them could violate privacy norms).
+- **Transparency in Reporting:** Plan to communicate source quality in the final answer when appropriate. If a crucial piece of info comes from a lower-tier source (and no better source exists), the AI should mention that context (e.g., "Information from an unverified forum post suggests X, but this has not been confirmed by official sources."). Conversely, when using high-quality sources, citing them can bolster the answer’s credibility.
 
 By applying these criteria, the AI will prioritize information from the most reliable sources available and ensure that each piece of information used in analysis or answers is scrutinized. This reduces the risk of spreading misinformation and helps maintain trustworthiness and transparency in the AI’s investigative responses.
