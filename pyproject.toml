@@ -18,7 +18,12 @@ dependencies = [
 dev = [
     "pytest",
     "pre-commit",
+    "pytest-cov",
+    "nbmake",
 ]
+
+[tool.pytest.ini_options]
+addopts = "--cov=codex19 --cov-report=term-missing --cov-fail-under=85 --nbmake examples/case_studies tests"
 
 [tool.setuptools.packages.find]
 where = ["src"]
