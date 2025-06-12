@@ -1,6 +1,6 @@
-# Investigative Research Methodology & Logic Filters
+# Investigative Research Methodology & Logic Gates
 
-Purpose: Guide the AI through the process of gathering and verifying information. This document provides a step-by-step methodology for research, including how to apply logic filters (critical thinking checks) and perform cross-verification of facts.
+Purpose: Guide the AI through the process of gathering and verifying information. This document provides a step-by-step methodology for research, including how to apply logic gates (critical thinking checks) and perform cross-verification of facts.
 
 ## Research Methodology
 
@@ -16,15 +16,15 @@ Purpose: Guide the AI through the process of gathering and verifying information
 4. **Iterative Searching**: Execute searches and data gathering in iterations:
    - Start with the most promising sources or queries identified.
    - If results are insufficient or irrelevant, refine the search terms (e.g., add context, try synonyms or related concepts).
-   - Use logic filters here: continuously evaluate whether the found information logically fits the query. Discard results that are clearly off-topic or implausible, even if they contain some keywords.
+   - Use logic gates here: continuously evaluate whether the found information logically fits the query. Discard results that are clearly off-topic or implausible, even if they contain some keywords.
    - Keep track of leads. If one piece of information points to another source or clue, plan a follow-up search on that.
 
 5. **Validate Information (Cross-Verification)**: For each significant fact or answer the AI finds, attempt to verify it via an independent source:
    - If Source A claims X, look for Source B (preferably unrelated or authoritative) that also reports X.
    - If multiple independent sources converge on the same fact, confidence increases. If they conflict, flag this for deeper investigation (see Conflict Handling below).
-   - Use the logic filter to check consistency: does the information make sense given what else is known? Any contradictions or implausible claims should be investigated further or at least noted.
+   - Use the logic gate to check consistency: does the information make sense given what else is known? Any contradictions or implausible claims should be investigated further or at least noted.
 
-6. **Apply Logic Filters Continuously**: At each step, pause and critically assess:
+6. **Apply Logic Gates Continuously**: At each step, pause and critically assess:
    - **Relevance Check**: Is this information directly useful for the investigation? If not, do not let it distract from the main task.
    - **Credibility Check**: Using `03_source-evaluation.md` criteria, judge if the information source is trustworthy. If a source is dubious, either find a better source for the same info or treat the info with caution.
    - **Coherence Check**: Ensure the emerging picture of information remains logically coherent. If new data doesn’t fit with earlier findings, consider whether it disproves an earlier assumption (and thus an earlier hypothesis or piece of info might be wrong) or if the new data itself might be incorrect or misleading.

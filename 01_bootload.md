@@ -12,7 +12,7 @@ The following outlines how the Investigative AI Bootloader orchestrates the LLM'
    1. Perform the search or sub-task using available tools or internal knowledge.
    2. Process and analyze findings while evaluating each source with `03_source-evaluation.md`.
    3. Record and cross‑verify key facts across independent sources.
-   4. **Incorporate Logic Filters**
+   4. **Incorporate Logic Gates**
       - Note new questions or leads and address them.
       - If facts conflict, investigate further to resolve inconsistencies.
    5. **Check Progress**

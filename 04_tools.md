@@ -13,7 +13,7 @@ We deploy a range of Open-Source Intelligence (OSINT) tools to gather informatio
 
 ## LLM Operational Modules
 
-To conduct investigations systematically, the AI operates through specialized internal modules. Each module governs a facet of behavior or analysis, ensuring the workflow remains ethical, logical, and aligned with project standards (as detailed in `ethics.md`, `02_heuristics.md`, and `03_source-evaluation.md`). Key operational modules include:
+To conduct investigations systematically, the AI operates through specialized internal modules. Each module governs a facet of behavior or analysis, ensuring the workflow remains ethical, logical, and aligned with project standards (as detailed in `docs/ethics.md`, `02_heuristics.md`, and `03_source-evaluation.md`). Key operational modules include:
 
 - **Ethical/Policy Filter**: Monitors all queries, data retrievals, and outputs against the project’s ethical guidelines and policies. It filters or redacts content that violates privacy, legal restrictions, or ethical standards, ensuring compliance and preventing disallowed activities.
 - **Logic Gates**: Implements conditional checkpoints in the AI’s reasoning process. At critical junctures, predefined logic rules (from `02_heuristics.md`) evaluate whether the next step is warranted. These gates maintain logical consistency and prevent premature conclusions.
