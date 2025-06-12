@@ -1,0 +1,15 @@
+site_name: Codex19
+docs_dir: docs
+plugins:
+  - search
+  - macros
+markdown_extensions:
+  - footnotes
+nav:
+  - Home: index.md
+  - Bootloader: 01_bootload.md
+  - Heuristics: 02_heuristics.md
+  - Source Evaluation: 03_source-evaluation.md
+  - Tools: 04_tools.md
+  - Ethics: ethics.md
+  - Threat Models: threat-models.md
