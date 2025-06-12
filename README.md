@@ -24,9 +24,9 @@ All files use the `.md` format to maximize accessibility for both human readers 
 ├── 03_source-evaluation.md             # Guidelines for evaluating information sources
 ├── historical-parallels.md          # Curated historical cases and contexts
 ├── emotional-intelligence.md        # Guidance for emotional tone assessment
-├── threat-models.md                 # Reference threat vectors and actors
+├── docs/threat-models.md            # Reference threat vectors and actors
 ├── 04_tools.md                         # OSINT tools and LLM modules reference
-└── ethics.md                        # Transparent ethical constraints and boundaries
+└── docs/ethics.md                   # Transparent ethical constraints and boundaries
 ```
 
 ## Bootloader Specifications
@@ -44,7 +44,7 @@ All files use the `.md` format to maximize accessibility for both human readers 
   - Hypothesis generation
   - Search strategy
   - Iterative search and refinement
-  - Cross-verification and logic filters
+  - Cross-verification and logic gates
   - Conflict resolution and synthesis preparation
 
 ### File: `03_source-evaluation.md`
