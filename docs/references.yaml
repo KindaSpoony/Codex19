@@ -1,0 +1,41 @@
+---
+- id: heuer1999
+  title: Psychology of Intelligence Analysis
+  url: https://www.cia.gov/static/90ef8ae2d6a3dcb9f82a2007e143b79f/psychology-of-intelligence-analysis.pdf
+  category: intel-tradecraft
+- id: eu-ai-act
+  title: European Union Artificial Intelligence Act
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52021PC0206
+  category: ai-ethics
+- id: nist-rmf
+  title: NIST AI Risk Management Framework
+  url: https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf
+  category: ai-ethics
+- id: bellingcat-toolkit
+  title: Bellingcat Online Investigation Toolkit
+  url: https://docs.bellingcat.com/online-investigations/online-investigation-toolkit/
+  category: intel-tradecraft
+- id: mitre-attack
+  title: MITRE ATT&CK Framework
+  url: https://attack.mitre.org/
+  category: intel-tradecraft
+- id: interpol-osint
+  title: INTERPOL Framework for Responding to the Use of Social Media in Intelligence and Investigations
+  url: https://www.interpol.int/en/content/download/15534/file/Framework_Social_Media.pdf
+  category: intel-tradecraft
+- id: cisa-cyber-basics
+  title: CISA Cybersecurity Basics
+  url: https://www.cisa.gov/sites/default/files/publications/CISA_Cyber_Essentials_Starter_Kit.pdf
+  category: intel-tradecraft
+- id: un-guiding-principles
+  title: UN Guiding Principles on Business and Human Rights
+  url: https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf
+  category: ai-ethics
+- id: dod-law-war
+  title: Department of Defense Law of War Manual
+  url: https://ogc.osd.mil/Portals/99/docs/InternationalLaw/DoD_Law_of_War_Manual-June_2015_Updated_May_2016.pdf
+  category: intel-tradecraft
+- id: gpa-ai-guidelines
+  title: Global Partnership on AI Responsible AI Guidelines
+  url: https://gpai.ai/projects/responsible-ai/gpaifoundation.pdf
+  category: ai-ethics
