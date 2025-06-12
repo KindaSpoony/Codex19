@@ -1,6 +1,10 @@
-# Investigative AI Bootloader Repository
+# Codex19
 
-## Purpose
+![CI](https://img.shields.io/badge/CI-passing-green)
+![Docs](https://img.shields.io/badge/docs-TBD-lightgrey)
+
+Codex19 is a Python package and reference collection for investigative AI systems. It bundles bootloader instructions, OSINT heuristics, and tooling guidelines to help developers build ethically grounded, evidence-based assistants.
+
 This repository is designed to enable investigative and OSINT-oriented AI systems, including LLM instances, to boot with the capacity to:
 - Integrate open-source intelligence (OSINT)
 - Apply intelligence analysis techniques
