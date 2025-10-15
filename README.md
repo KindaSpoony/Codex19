@@ -14,6 +14,27 @@ This repository is designed to enable investigative and OSINT-oriented AI system
 
 All files use the `.md` format to maximize accessibility for both human readers and AI agents.
 
+## Quick Start
+
+1. **Install Dependencies**
+   ```bash
+   pip install -e .[dev]
+   ```
+2. **Run Tests** (optional)
+   ```bash
+   pytest -q
+   ```
+3. **Generate Safety Summary**
+   ```bash
+   python -m codex19.prompt_builder
+   ```
+   This creates `prompt/safety_summary.txt` with condensed ethics and threat rules.
+4. **Load the Bootloader**
+   Concatenate the markdown files in the following order and provide them as the system prompt to your LLM:
+   `01_bootload.md` → `02_heuristics.md` → `03_source-evaluation.md`.
+   Include `04_tools.md` and other docs as needed.
+
+
 ## Repository Structure
 
 ```markdown
